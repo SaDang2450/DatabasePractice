@@ -21,3 +21,5 @@ VALUES
 ('구글', 		'https://google.com'),
 ('네이버', 	'https://naver.com'),
 ('다음', 		'https://daum.net');
+
+SELECT * FROM `bookmark` ORDER BY `id` DESC;
